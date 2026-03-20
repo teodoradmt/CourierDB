@@ -1,0 +1,521 @@
+[{
+  "_id": {
+    "$oid": "69bac1518d46d25dfe357b9e"
+  },
+  "packageId": "PKG001",
+  "trackingNumber": "TRK2026001",
+  "customerId": "CUST001",
+  "courierId": "COURIER001",
+  "officeFromId": "OFF001",
+  "officeToId": "OFF002",
+  "paymentId": "PAY001",
+  "deliveryType": "office-to-office",
+  "packageType": "document",
+  "weightKg": 0.5,
+  "price": 15.5,
+  "status": "delivered",
+  "sender": {
+    "name": "Ivan Petrov",
+    "phone": "+359888123001"
+  },
+  "receiver": {
+    "name": "Maria Georgieva",
+    "phone": "+359888555001",
+    "city": "Plovdiv"
+  },
+  "fragile": false,
+  "cashOnDelivery": true,
+  "declaredValue": 50,
+  "createdAt": {
+    "$date": "2026-03-10T08:00:00.000Z"
+  },
+  "statusHistory": [
+    {
+      "status": "created",
+      "date": {
+        "$date": "2026-03-10T08:00:00.000Z"
+      }
+    },
+    {
+      "status": "in transit",
+      "date": {
+        "$date": "2026-03-10T12:30:00.000Z"
+      }
+    },
+    {
+      "status": "delivered",
+      "date": {
+        "$date": "2026-03-11T09:15:00.000Z"
+      }
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "69bac1518d46d25dfe357b9f"
+  },
+  "packageId": "PKG002",
+  "trackingNumber": "TRK2026002",
+  "customerId": "CUST002",
+  "courierId": "COURIER002",
+  "officeFromId": "OFF002",
+  "officeToId": "OFF003",
+  "paymentId": "PAY002",
+  "deliveryType": "office-to-office",
+  "packageType": "box",
+  "weightKg": 2.3,
+  "price": 22,
+  "status": "in transit",
+  "sender": {
+    "name": "Maria Georgieva",
+    "phone": "+359888123002"
+  },
+  "receiver": {
+    "name": "Georgi Ivanov",
+    "phone": "+359888555002",
+    "city": "Varna"
+  },
+  "fragile": true,
+  "cashOnDelivery": false,
+  "declaredValue": 120,
+  "createdAt": {
+    "$date": "2026-03-10T10:30:00.000Z"
+  },
+  "statusHistory": [
+    {
+      "status": "created",
+      "date": {
+        "$date": "2026-03-10T10:30:00.000Z"
+      }
+    },
+    {
+      "status": "accepted in office",
+      "date": {
+        "$date": "2026-03-10T11:00:00.000Z"
+      }
+    },
+    {
+      "status": "in transit",
+      "date": {
+        "$date": "2026-03-11T06:45:00.000Z"
+      }
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "69bac1518d46d25dfe357ba0"
+  },
+  "packageId": "PKG003",
+  "trackingNumber": "TRK2026003",
+  "customerId": "CUST003",
+  "courierId": "COURIER003",
+  "officeFromId": "OFF003",
+  "officeToId": "OFF001",
+  "paymentId": "PAY003",
+  "deliveryType": "address-to-office",
+  "packageType": "electronics",
+  "weightKg": 1.1,
+  "price": 48.75,
+  "status": "pending",
+  "sender": {
+    "name": "Ivanov Trade Ltd.",
+    "phone": "+359888123003"
+  },
+  "receiver": {
+    "name": "Elena Dimitrova",
+    "phone": "+359888555003",
+    "city": "Sofia"
+  },
+  "fragile": true,
+  "cashOnDelivery": false,
+  "declaredValue": 650,
+  "notes": "Handle with care",
+  "createdAt": {
+    "$date": "2026-03-11T09:00:00.000Z"
+  },
+  "statusHistory": [
+    {
+      "status": "created",
+      "date": {
+        "$date": "2026-03-11T09:00:00.000Z"
+      }
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "69bac1518d46d25dfe357ba1"
+  },
+  "packageId": "PKG004",
+  "trackingNumber": "TRK2026004",
+  "customerId": "CUST004",
+  "courierId": "COURIER004",
+  "officeFromId": "OFF004",
+  "officeToId": "OFF005",
+  "paymentId": "PAY004",
+  "deliveryType": "office-to-office",
+  "packageType": "parcel",
+  "weightKg": 0.8,
+  "price": 12,
+  "status": "delivered",
+  "sender": {
+    "name": "Elena Dimitrova",
+    "phone": "+359888123004"
+  },
+  "receiver": {
+    "name": "Nikolay Stoianov",
+    "phone": "+359888555004",
+    "city": "Kardzhali"
+  },
+  "fragile": false,
+  "cashOnDelivery": true,
+  "declaredValue": 40,
+  "createdAt": {
+    "$date": "2026-03-11T11:20:00.000Z"
+  },
+  "statusHistory": [
+    {
+      "status": "created",
+      "date": {
+        "$date": "2026-03-11T11:20:00.000Z"
+      }
+    },
+    {
+      "status": "in transit",
+      "date": {
+        "$date": "2026-03-11T15:00:00.000Z"
+      }
+    },
+    {
+      "status": "delivered",
+      "date": {
+        "$date": "2026-03-12T10:10:00.000Z"
+      }
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "69bac1518d46d25dfe357ba2"
+  },
+  "packageId": "PKG005",
+  "trackingNumber": "TRK2026005",
+  "customerId": "CUST005",
+  "courierId": "COURIER005",
+  "officeFromId": "OFF005",
+  "officeToId": "OFF001",
+  "paymentId": "PAY005",
+  "deliveryType": "office-to-address",
+  "packageType": "clothes",
+  "weightKg": 3,
+  "price": 35.9,
+  "status": "cancelled",
+  "sender": {
+    "name": "NS Logistics",
+    "phone": "+359888123005"
+  },
+  "receiver": {
+    "name": "Petya Koleva",
+    "phone": "+359888555005",
+    "city": "Sofia"
+  },
+  "fragile": false,
+  "cashOnDelivery": false,
+  "declaredValue": 180,
+  "createdAt": {
+    "$date": "2026-03-12T08:40:00.000Z"
+  },
+  "statusHistory": [
+    {
+      "status": "created",
+      "date": {
+        "$date": "2026-03-12T08:40:00.000Z"
+      }
+    },
+    {
+      "status": "cancelled",
+      "date": {
+        "$date": "2026-03-12T09:30:00.000Z"
+      }
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "69bac1518d46d25dfe357ba3"
+  },
+  "packageId": "PKG006",
+  "trackingNumber": "TRK2026006",
+  "customerId": "CUST006",
+  "courierId": "COURIER001",
+  "officeFromId": "OFF001",
+  "officeToId": "OFF003",
+  "paymentId": "PAY001",
+  "deliveryType": "address-to-address",
+  "packageType": "document",
+  "weightKg": 0.3,
+  "price": 18.2,
+  "status": "in transit",
+  "sender": {
+    "name": "Petya Koleva",
+    "phone": "+359888123006"
+  },
+  "receiver": {
+    "name": "Dimitar Hristov",
+    "phone": "+359888555006",
+    "city": "Varna"
+  },
+  "fragile": false,
+  "cashOnDelivery": true,
+  "declaredValue": 20,
+  "createdAt": {
+    "$date": "2026-03-12T13:10:00.000Z"
+  },
+  "statusHistory": [
+    {
+      "status": "created",
+      "date": {
+        "$date": "2026-03-12T13:10:00.000Z"
+      }
+    },
+    {
+      "status": "picked up",
+      "date": {
+        "$date": "2026-03-12T14:00:00.000Z"
+      }
+    },
+    {
+      "status": "in transit",
+      "date": {
+        "$date": "2026-03-13T07:20:00.000Z"
+      }
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "69bac1518d46d25dfe357ba4"
+  },
+  "packageId": "PKG007",
+  "trackingNumber": "TRK2026007",
+  "customerId": "CUST007",
+  "courierId": "COURIER002",
+  "officeFromId": "OFF002",
+  "officeToId": "OFF004",
+  "paymentId": "PAY002",
+  "deliveryType": "office-to-office",
+  "packageType": "books",
+  "weightKg": 4.7,
+  "price": 27.4,
+  "status": "delivered",
+  "sender": {
+    "name": "Dimitar Hristov",
+    "phone": "+359888123007"
+  },
+  "receiver": {
+    "name": "Teodora Nikolova",
+    "phone": "+359888555007",
+    "city": "Haskovo"
+  },
+  "fragile": false,
+  "cashOnDelivery": false,
+  "declaredValue": 90,
+  "createdAt": {
+    "$date": "2026-03-13T09:25:00.000Z"
+  },
+  "statusHistory": [
+    {
+      "status": "created",
+      "date": {
+        "$date": "2026-03-13T09:25:00.000Z"
+      }
+    },
+    {
+      "status": "accepted in office",
+      "date": {
+        "$date": "2026-03-13T09:50:00.000Z"
+      }
+    },
+    {
+      "status": "in transit",
+      "date": {
+        "$date": "2026-03-13T16:10:00.000Z"
+      }
+    },
+    {
+      "status": "delivered",
+      "date": {
+        "$date": "2026-03-14T11:40:00.000Z"
+      }
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "69bac1518d46d25dfe357ba5"
+  },
+  "packageId": "PKG008",
+  "trackingNumber": "TRK2026008",
+  "customerId": "CUST008",
+  "courierId": "COURIER003",
+  "officeFromId": "OFF003",
+  "officeToId": "OFF005",
+  "paymentId": "PAY003",
+  "deliveryType": "address-to-office",
+  "packageType": "cosmetics",
+  "weightKg": 1.9,
+  "price": 19.8,
+  "status": "returned",
+  "sender": {
+    "name": "Teodora Nikolova",
+    "phone": "+359888123008"
+  },
+  "receiver": {
+    "name": "Krasimir Angelov",
+    "phone": "+359888555008",
+    "city": "Kardzhali"
+  },
+  "fragile": true,
+  "cashOnDelivery": false,
+  "declaredValue": 140,
+  "createdAt": {
+    "$date": "2026-03-13T12:15:00.000Z"
+  },
+  "statusHistory": [
+    {
+      "status": "created",
+      "date": {
+        "$date": "2026-03-13T12:15:00.000Z"
+      }
+    },
+    {
+      "status": "in transit",
+      "date": {
+        "$date": "2026-03-13T18:00:00.000Z"
+      }
+    },
+    {
+      "status": "delivery failed",
+      "date": {
+        "$date": "2026-03-14T13:30:00.000Z"
+      }
+    },
+    {
+      "status": "returned",
+      "date": {
+        "$date": "2026-03-15T09:00:00.000Z"
+      }
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "69bac1518d46d25dfe357ba6"
+  },
+  "packageId": "PKG009",
+  "trackingNumber": "TRK2026009",
+  "customerId": "CUST009",
+  "courierId": "COURIER005",
+  "officeFromId": "OFF005",
+  "officeToId": "OFF002",
+  "paymentId": "PAY004",
+  "deliveryType": "office-to-address",
+  "packageType": "spare parts",
+  "weightKg": 6.5,
+  "price": 54.6,
+  "status": "out for delivery",
+  "sender": {
+    "name": "Angelov Market",
+    "phone": "+359888123009"
+  },
+  "receiver": {
+    "name": "Simona Vasileva",
+    "phone": "+359888555009",
+    "city": "Plovdiv"
+  },
+  "fragile": false,
+  "cashOnDelivery": true,
+  "declaredValue": 300,
+  "createdAt": {
+    "$date": "2026-03-14T07:50:00.000Z"
+  },
+  "statusHistory": [
+    {
+      "status": "created",
+      "date": {
+        "$date": "2026-03-14T07:50:00.000Z"
+      }
+    },
+    {
+      "status": "in transit",
+      "date": {
+        "$date": "2026-03-14T14:20:00.000Z"
+      }
+    },
+    {
+      "status": "out for delivery",
+      "date": {
+        "$date": "2026-03-15T08:10:00.000Z"
+      }
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "69bac1518d46d25dfe357ba7"
+  },
+  "packageId": "PKG010",
+  "trackingNumber": "TRK2026010",
+  "customerId": "CUST010",
+  "courierId": "COURIER001",
+  "officeFromId": "OFF001",
+  "officeToId": "OFF004",
+  "paymentId": "PAY005",
+  "deliveryType": "address-to-address",
+  "packageType": "home goods",
+  "weightKg": 2.8,
+  "price": 31.3,
+  "status": "pending",
+  "sender": {
+    "name": "Simona Vasileva",
+    "phone": "+359888123010"
+  },
+  "receiver": {
+    "name": "Ivan Petrov",
+    "phone": "+359888555010",
+    "city": "Haskovo"
+  },
+  "fragile": true,
+  "cashOnDelivery": false,
+  "declaredValue": 210,
+  "notes": "Call before delivery",
+  "createdAt": {
+    "$date": "2026-03-15T10:00:00.000Z"
+  },
+  "statusHistory": [
+    {
+      "status": "created",
+      "date": {
+        "$date": "2026-03-15T10:00:00.000Z"
+      }
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "69bac74e8d46d25dfe357bc1"
+  },
+  "packageId": "PKG011",
+  "trackingNumber": "TRK2026011",
+  "customerId": "CUST001",
+  "courierId": "COURIER002",
+  "deliveryType": "office-to-office",
+  "weightKg": 1.2,
+  "price": 20,
+  "status": "created",
+  "fragile": false,
+  "createdAt": {
+    "$date": "2026-03-18T15:39:58.785Z"
+  }
+}]

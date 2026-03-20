@@ -1,0 +1,95 @@
+[{
+  "_id": {
+    "$oid": "69bac15e8d46d25dfe357bad"
+  },
+  "officeId": "OFF001",
+  "name": "Sofia Center Office",
+  "city": "Sofia",
+  "address": {
+    "street": "bul. Vitosha 25",
+    "postalCode": "1000"
+  },
+  "phone": "+35929870001",
+  "workingHours": {
+    "mondayToFriday": "08:00 - 18:00",
+    "saturday": "09:00-15:00",
+    "sunday": "closed"
+  },
+  "isActive": true
+},
+{
+  "_id": {
+    "$oid": "69bac15e8d46d25dfe357bae"
+  },
+  "officeId": "OFF002",
+  "name": "Plovdiv Main Office",
+  "city": "Plovdiv",
+  "address": {
+    "street": "ul. Kapitan Raycho 10",
+    "postalCode": "4000"
+  },
+  "phone": "+35932870002",
+  "workingHours": {
+    "mondayToFriday": "08:30 - 18:30",
+    "saturday": "09:00-15:00",
+    "sunday": "closed"
+  },
+  "isActive": true
+},
+{
+  "_id": {
+    "$oid": "69bac15e8d46d25dfe357baf"
+  },
+  "officeId": "OFF003",
+  "name": "Varna Office",
+  "city": "Varna",
+  "address": {
+    "street": "bul. Vladislav Varnenchik 88",
+    "postalCode": "9000"
+  },
+  "phone": "+35952870003",
+  "workingHours": {
+    "mondayToFriday": "08:00 - 18:00",
+    "saturday": "09:00-15:00",
+    "sunday": "closed"
+  },
+  "isActive": true
+},
+{
+  "_id": {
+    "$oid": "69bac15e8d46d25dfe357bb0"
+  },
+  "officeId": "OFF004",
+  "name": "Haskovo Office",
+  "city": "Haskovo",
+  "address": {
+    "street": "ul. Bulgaria 15",
+    "postalCode": "6300"
+  },
+  "phone": "+35938870004",
+  "workingHours": {
+    "mondayToFriday": "08:00 - 17:00",
+    "saturday": "09:00-15:00",
+    "sunday": "closed"
+  },
+  "isActive": true
+},
+{
+  "_id": {
+    "$oid": "69bac15e8d46d25dfe357bb1"
+  },
+  "officeId": "OFF005",
+  "name": "Kardzhali Office",
+  "city": "Kardzhali",
+  "address": {
+    "street": "bul. Bulgaria 42",
+    "postalCode": "6600"
+  },
+  "phone": "+35936870005",
+  "workingHours": {
+    "mondayToFriday": "08:30 - 17:30",
+    "saturday": "09:00-15:00",
+    "sunday": "closed"
+  },
+  "isActive": true
+}]

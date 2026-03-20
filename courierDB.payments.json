@@ -1,0 +1,68 @@
+[{
+  "_id": {
+    "$oid": "69bac1598d46d25dfe357ba8"
+  },
+  "paymentId": "PAY001",
+  "method": "cash",
+  "amount": 15.5,
+  "currency": "EUR",
+  "status": "paid",
+  "paidAt": {
+    "$date": "2026-03-10T10:15:00.000Z"
+  },
+  "isCashOnDelivery": true
+},
+{
+  "_id": {
+    "$oid": "69bac1598d46d25dfe357ba9"
+  },
+  "paymentId": "PAY002",
+  "method": "card",
+  "amount": 22,
+  "currency": "EUR",
+  "status": "paid",
+  "paidAt": {
+    "$date": "2026-03-10T12:30:00.000Z"
+  },
+  "isCashOnDelivery": false,
+  "transactionId": "TXN123456"
+},
+{
+  "_id": {
+    "$oid": "69bac1598d46d25dfe357baa"
+  },
+  "paymentId": "PAY003",
+  "method": "bank_transfer",
+  "amount": 48.75,
+  "currency": "EUR",
+  "status": "pending",
+  "paidAt": null,
+  "isCashOnDelivery": false
+},
+{
+  "_id": {
+    "$oid": "69bac1598d46d25dfe357bab"
+  },
+  "paymentId": "PAY004",
+  "method": "cash",
+  "amount": 12,
+  "currency": "EUR",
+  "status": "paid",
+  "paidAt": {
+    "$date": "2026-03-11T09:20:00.000Z"
+  },
+  "isCashOnDelivery": true
+},
+{
+  "_id": {
+    "$oid": "69bac1598d46d25dfe357bac"
+  },
+  "paymentId": "PAY005",
+  "method": "card",
+  "amount": 35.9,
+  "currency": "EUR",
+  "status": "failed",
+  "paidAt": null,
+  "isCashOnDelivery": false,
+  "transactionId": "TXN789012"
+}]

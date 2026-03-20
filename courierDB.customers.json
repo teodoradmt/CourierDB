@@ -1,0 +1,193 @@
+[{
+  "_id": {
+    "$oid": "69bac17b8d46d25dfe357bb8"
+  },
+  "customerId": "CUST002",
+  "firstName": "Maria",
+  "lastName": "Georgieva",
+  "phone": "+359888123002",
+  "email": "maria.georgieva@email.com",
+  "city": "Plovdiv",
+  "address": {
+    "street": "ul. Hristo G. Danov 22",
+    "postalCode": "4000"
+  },
+  "isBusinessClient": false,
+  "createdAt": {
+    "$date": "2026-03-01T10:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69bac17b8d46d25dfe357bb9"
+  },
+  "customerId": "CUST003",
+  "firstName": "Georgi",
+  "lastName": "Ivanov",
+  "phone": "+359888123003",
+  "email": "georgi.ivanov@email.com",
+  "city": "Varna",
+  "address": {
+    "street": "bul. Knyaz Boris I 101",
+    "postalCode": "9000"
+  },
+  "isBusinessClient": true,
+  "companyName": "Ivanov Trade Ltd.",
+  "createdAt": {
+    "$date": "2026-03-02T08:45:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69bac17b8d46d25dfe357bba"
+  },
+  "customerId": "CUST004",
+  "firstName": "Elena",
+  "lastName": "Dimitrova",
+  "phone": "+359888123004",
+  "email": "elena.dimitrova@email.com",
+  "city": "Burgas",
+  "address": {
+    "street": "ul. Aleksandrovska 54",
+    "postalCode": "8000"
+  },
+  "isBusinessClient": false,
+  "createdAt": {
+    "$date": "2026-03-02T11:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69bac17b8d46d25dfe357bbb"
+  },
+  "customerId": "CUST005",
+  "firstName": "Nikolay",
+  "lastName": "Stoianov",
+  "phone": "+359888123005",
+  "email": "nikolay.stoianov@email.com",
+  "city": "Ruse",
+  "address": {
+    "street": "ul. Borisova 18",
+    "postalCode": "7000"
+  },
+  "isBusinessClient": true,
+  "companyName": "NS Logistics",
+  "createdAt": {
+    "$date": "2026-03-03T09:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69bac17b8d46d25dfe357bbc"
+  },
+  "customerId": "CUST006",
+  "firstName": "Petya",
+  "lastName": "Koleva",
+  "phone": "+359888123006",
+  "email": "petya.koleva@email.com",
+  "city": "Stara Zagora",
+  "address": {
+    "street": "bul. Tsar Simeon Veliki 77",
+    "postalCode": "6000"
+  },
+  "isBusinessClient": false,
+  "createdAt": {
+    "$date": "2026-03-03T13:40:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69bac17b8d46d25dfe357bbd"
+  },
+  "customerId": "CUST007",
+  "firstName": "Dimitar",
+  "lastName": "Hristov",
+  "phone": "+359888123007",
+  "email": "dimitar.hristov@email.com",
+  "city": "Pleven",
+  "address": {
+    "street": "ul. San Stefano 9",
+    "postalCode": "5800"
+  },
+  "isBusinessClient": false,
+  "createdAt": {
+    "$date": "2026-03-04T08:10:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69bac17b8d46d25dfe357bbe"
+  },
+  "customerId": "CUST008",
+  "firstName": "Teodora",
+  "lastName": "Nikolova",
+  "phone": "+359888123008",
+  "email": "teodora.nikolova@email.com",
+  "city": "Veliko Tarnovo",
+  "address": {
+    "street": "ul. Vasil Levski 33",
+    "postalCode": "5000"
+  },
+  "isBusinessClient": false,
+  "createdAt": {
+    "$date": "2026-03-04T12:25:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69bac17b8d46d25dfe357bbf"
+  },
+  "customerId": "CUST009",
+  "firstName": "Krasimir",
+  "lastName": "Angelov",
+  "phone": "+359888123009",
+  "email": "krasimir.angelov@email.com",
+  "city": "Blagoevgrad",
+  "address": {
+    "street": "ul. Todor Alexandrov 12",
+    "postalCode": "2700"
+  },
+  "isBusinessClient": true,
+  "companyName": "Angelov Market",
+  "createdAt": {
+    "$date": "2026-03-05T10:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69bac17b8d46d25dfe357bc0"
+  },
+  "customerId": "CUST010",
+  "firstName": "Simona",
+  "lastName": "Vasileva",
+  "phone": "+359888123010",
+  "email": "simona.vasileva@email.com",
+  "city": "Shumen",
+  "address": {
+    "street": "bul. Slavyanski 44",
+    "postalCode": "9700"
+  },
+  "isBusinessClient": false,
+  "createdAt": {
+    "$date": "2026-03-05T14:50:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69bcf56c185adef34a2ce422"
+  },
+  "customerId": "CUST020",
+  "firstName": "Dimitar",
+  "lastName": "Basharanov",
+  "phone": "+3591212121212",
+  "email": "mitko@gmail.com",
+  "city": "Sofia",
+  "address": {
+    "street": "Rilite 5",
+    "postalCode": "1000"
+  },
+  "isBusinessClient": true,
+  "createdAt": {
+    "$date": "2026-03-20T07:21:16.205Z"
+  }
+}]
